@@ -14,7 +14,11 @@ que permita el procesado de datos correspondiente a la obtención del P-trait, R
 
         > python3 BROP_APP.py 
 
-Este repositorio contiene una versión ya compilada de ejecutable BROP_APP.exe dentro de la carpeta dist.
+En la carpeta "Archivos para realizar las pruebas", se encontrarán los archivos definidos para poder probar la herramienta, para cada botón
+se encuentra el archivo correspondiente con el mismo nombre.
+
+Este repositorio contiene una versión ya compilada de ejecutable BROP_APP.exe
+
 
 # Sobre el autor
 

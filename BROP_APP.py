@@ -124,7 +124,7 @@ class GUI (QMainWindow,Ui_BROP) :
         comercial = comercial[comercial.columns.drop(list(comercial.filter(regex='Unnamed')))]
         Tabla = Tabla[Tabla.columns.drop(list(Tabla.filter(regex='Unnamed')))]
 
-        path_comercial = 'comercial.csv'
+        path_comercial = 'properties\comercial.csv'
 
         columns = list(comercial.columns )
         columns = columns[1:]
@@ -327,7 +327,7 @@ class GUI (QMainWindow,Ui_BROP) :
         columns_m = columns_m[3:]
         print(columns_m)
 
-        path_breeder = 'Breeder_code.csv'
+        path_breeder = 'properties\Breeder_code.csv'
 
         breeder_code = pd.read_csv(path_breeder,sep='[;,:\s+]',engine='python',index_col = 'Condition')
         breeder_code = breeder_code.replace(np.nan, '', regex=True)
