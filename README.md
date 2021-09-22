@@ -17,7 +17,7 @@ que permita el procesado de datos correspondiente a la obtención del P-trait, R
 En la carpeta "Archivos para realizar las pruebas", se encontrarán los archivos definidos para poder probar la herramienta, para cada botón
 se encuentra el archivo correspondiente con el mismo nombre.
 
-Este repositorio contiene una versión ya compilada de ejecutable BROP_APP.exe
+En la documentación del TFM se podrá encontrar el link a la aplicación compilada, para usuarios comunes.
 
 
 # Sobre el autor
